@@ -5,3 +5,6 @@ In this lab we cofnigured the firewall for LAN and WANs assigning each interface
 
 # LAB 02 DNS + ADDS Role
 In this lab we configured DNS and AD roles for the WKS01 we used the windows Server Manager to configure AD roles for the windows system and then created an alias using DNS to use the firewall system that we created during the previous lab. 
+
+# Lab 03 Linux Lab
+In this lab we configured a linux box to use the DNS settings we configured in the last lab. We set an IP address and new hostname to the linux box and then went on to configure DNS settings for the linux box.
