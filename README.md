@@ -14,3 +14,6 @@ in this lab we configured the linux box for DHCP and the workstation and AD mach
 
 # SSH Securing
 We went into the /etc/ssh directory and vi the sshd_config file and add the following line to it PermitRootLogin no and :wq out of vi and then do a systemctl sshd restart to reset the ssh daemon and then we are done. 
+
+# File Permissions Lab
+In this lab we used the useradd -aG and passwd commands to create some new users and made some new directories and used the groupadd command to create new groups. I used the gpasswd -M command to add the users to groups because it allows for me to add multiple users to the same group in one line instead of usermod, however it is of note that gpasswd overwrites current group. I then used the chgrp command to change the appropriate directories to the appropriate groups and then did used chmod g+rw or g+r /dir/* to setup file permissions for the files and then I finished the lab. 
