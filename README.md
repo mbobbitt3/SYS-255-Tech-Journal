@@ -17,3 +17,6 @@ We went into the /etc/ssh directory and vi the sshd_config file and add the foll
 
 # File Permissions Lab
 In this lab we used the useradd -aG and passwd commands to create some new users and made some new directories and used the groupadd command to create new groups. I used the gpasswd -M command to add the users to groups because it allows for me to add multiple users to the same group in one line instead of usermod, however it is of note that gpasswd overwrites current group. I then used the chgrp command to change the appropriate directories to the appropriate groups and then did used chmod g+rw or g+r /dir/* to setup file permissions for the files and then I finished the lab. 
+
+# Lab 05 ADDS
+in this lab we used the ADDS tool in windows to add some new users and groups and then assign each user to their appropriate group. We also added the workstation machine to it's group and then logged into the accoutns of the new users we created to verify that the permissions we had configured were working. We also removed the recycle bin from the machines. 
