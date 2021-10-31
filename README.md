@@ -20,3 +20,5 @@ In this lab we used the useradd -aG and passwd commands to create some new users
 
 # Lab 05 ADDS
 for this week's midterm I have gathered all the lab instructions in a single folder and my deliverables so I am going to refer to those ot do the htings I have not memorized. I think this will be a good solution as the insturctions have most everything I need to complete the lab.
+# DHCP is down
+I went into the ad01 machine and added dhcp server as a feature to the fs01 and then added a remote admin /role admin tools / and then added dhcp server tools. Then I could right click fs01 and go into dhcp manager and configured it correctly then it worked. 
