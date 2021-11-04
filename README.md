@@ -22,3 +22,6 @@ In this lab we used the useradd -aG and passwd commands to create some new users
 for this week's midterm I have gathered all the lab instructions in a single folder and my deliverables so I am going to refer to those ot do the htings I have not memorized. I think this will be a good solution as the insturctions have most everything I need to complete the lab.
 # DHCP is down
 I went into the ad01 machine and added dhcp server as a feature to the fs01 and then added a remote admin /role admin tools / and then added dhcp server tools. Then I could right click fs01 and go into dhcp manager and configured it correctly then it worked. 
+
+# Apache Lab
+In order to get the firewall working I went into the terminal and typed firewall-cmd add-service=http to allow for http traffic to go in and out of the machine on port 80 which http uses, and then I used the same command but with https to get port 443 open as https uses port 443 for communication. I also used the realm join command to add this machine onto the windows domain we have set up and been using since the start of the class. 
